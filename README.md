@@ -27,3 +27,4 @@ Instructions for use:
 
 Initial setup:
   - Using the internet and the FCC ID found on the back of the opener, find your garage door's operating frequency. Change the value of Fc, on line 10 of garage_hack_script.m, to this frequency.
+- code_bit_width and bits_per_code on lines 13 and 14 respectively may need to be adjusted for each garage door.
