@@ -3,6 +3,7 @@ Final project source files for SDR course at University of Arizona.
 
 This code base includes files necessary to "hack" a garage door opener using a man in the middle (MITM) attack. This code was written for use with an ADALM PlutoSDR device. This code was proven to work on both a Craftsman and a Chamberlain garage door.
 
+
 Files included:
   - garage_hack_script.m
       This is the main source code file and calls other capture_code_pair.m and transmit_code.m
@@ -12,6 +13,7 @@ Files included:
       This file transmits the captured codes from the PlutoSDR.
   - jamming_test.m
       This file transmits a noisy signal from the PlutoSDR. This jams the transmission between the remote and the opener, preventing the opener from seeing the transmitted codes. Mileage may vary depending on signal strength from remote.
+      
       
 Instructions for use:
 1. Ensure that the PlutoSDR is connected.
