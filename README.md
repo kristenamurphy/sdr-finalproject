@@ -1,4 +1,4 @@
-# sdr-finalproject
+# Garage Door Hacking
 
 This code base includes files necessary to "hack" a garage door opener using a man in the middle (MITM) attack. This code was written for use with an ADALM PlutoSDR device. This code was proven to work on both a Craftsman and a Chamberlain garage door.
 
